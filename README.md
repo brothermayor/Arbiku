@@ -15,11 +15,11 @@ Arbiku is an automated arbitrage bot on Solana, powered by Raiku for smart, ligh
 - Exclude **meme coins** or low-volume pools.  
 - Built-in **liquidity scanner** with visual indicators (✅ stable, ⚠️ medium, 🔴 risky).  
 
-### 📊 3. Backtesting & Simulation
+### 3. Backtesting & Simulation
 - Test strategies using historical Solana DEX data before deploying live.  
 - View key metrics: trade frequency, ROI, slippage, and failure rate.  
 
-### 🤖 4. Automated Bot Execution
+### 4. Automated Bot Execution
 - Once deployed, your bot scans Solana DEXs for opportunities (via **Jupiter** or **Meteora**).  
 - Executes profitable trades automatically — **you keep custody** of your funds.  
 
@@ -28,15 +28,7 @@ Arbiku is an automated arbitrage bot on Solana, powered by Raiku for smart, ligh
 
 ---
 
-## 🧩 System Architecture
+## Why We Built Arbiku
 
-```mermaid
-flowchart TD
-A[User Dashboard] --> B[Strategy Setup Wizard]
-B --> C[Smart Token Pair Filters]
-C --> D[Profit Threshold Rules]
-D --> E[Simulation Engine]
-E --> F[Trading Bot Smart Contract]
-F --> G[Solana DEX Aggregator (Jupiter/Meteora)]
-G --> H[Live Trading Dashboard]
-H --> A
+Arbitrage trading is powerful but almost impossible for normal traders — prices change in seconds, bots are complex, and many require you to give up your funds.
+We solve this by using an AI-powered bot built on Raiku that scans Solana DEXs for price gaps and executes profitable trades automatically while keeping users’ funds safe in their wallets.
